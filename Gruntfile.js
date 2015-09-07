@@ -21,10 +21,9 @@ module.exports = function(grunt) {
 			dist: {
 				// Concat all files in Folder
 				//src: ['js/*.js'],
-				//
 				// Concat all files in Folder
 				src: ['js/jQuery.js','js/additional-methods.min.js','js/html5shiv.js','js/video.js','js/respond.js','js/navigation.js','js/global.js'],
-				
+
 				dest: 'dist/<%= pkg.namings.js %>.js'
 			}
 		},
